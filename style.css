@@ -124,13 +124,34 @@ body{
 }
 
 .calculate-wrapper{
-
+    display: flex;
 }
 
 .calculate-content{
 
 }
 
+.calculate-content h1{
+    max-width: 756px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #111827;
+    padding: 0 0 12px 0;
+}
+
 .calculate-content p{
     padding-right: 24px;
+    max-width: 756px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #111827;
+    padding-bottom: 16px;
 }
+
+.calculate-form{
+    margin-left: 24px;
+    
+}
+

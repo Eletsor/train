@@ -150,8 +150,75 @@ body{
     padding-bottom: 16px;
 }
 
+.calculate-form-text{
+    padding: 24px 199px 28px 199px;
+}
+
+.calculate-form-text h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.calculate-form-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.calculate-form-wrapper{
+
+}
+
+.calculate-form form{
+    margin: 0 auto;
+    max-width: 496px;
+}
+
+.input-wrapper{
+    padding-top: 24px;
+}
+
+#name{
+    width: 100%;
+    border: 2px solid #111827;
+    min-height: 48px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+
+#email{
+    border: 2px solid #111827;
+    min-height: 48px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 12px;
+    min-width: 47%;
+}
+
+#telephone{
+    border: 2px solid #111827;
+    min-height: 48px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 12px;
+    min-width: 47%;
+    float: right;
+}
+
+::placeholder{
+    color: #9CA3AF;
+    font-weight: 400;
+}
+
 .calculate-form{
     margin-left: 24px;
-    
+    background-color: #F9FAFB;
+    max-width: 756px;
+    border-radius: 16px;
 }
 

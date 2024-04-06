@@ -170,12 +170,13 @@ body{
 }
 
 .calculate-form-wrapper{
-
+    max-width: 756px;
 }
 
 .calculate-form form{
     margin: 0 auto;
     max-width: 496px;
+    padding-bottom: 24px;
 }
 
 .input-wrapper{
@@ -218,7 +219,7 @@ body{
 .calculate-form{
     margin-left: 24px;
     background-color: #F9FAFB;
-    max-width: 756px;
+    
     border-radius: 16px;
 }
 
@@ -235,3 +236,57 @@ body{
     cursor: pointer;
 }
 
+.advan{
+    margin-top: 72px;
+}
+
+.advan-wrapper{
+
+}
+
+.advan-tittle{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+
+.catalog-wrapper{
+    display: flex;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.advan-catalog{
+    padding: 24px 0 24px 24px ;
+    display: flex;
+    max-width: 496px;
+}
+
+.advan-catalog img{
+
+}
+
+.catalog-info{
+    text-align: left;
+    justify-items: center;
+    padding: 16px 0 16px 0;
+}
+
+.catalog-info h1{
+    font-weight: 900;
+    padding-left: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+}
+
+.catalog-info p{
+    padding-top: 12px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}

@@ -9,6 +9,18 @@
     .calculate-wrapper{
         flex-direction: column;
     }
+
+    .calculate-form-wrapper{
+        margin: 0 auto;
+    }
+
+    .calculate-form{
+        margin-top: 40px;
+    }
+
+    .calculate-content-img{
+        width: 100%;
+    }
 }
 
 

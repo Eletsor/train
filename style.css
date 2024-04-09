@@ -1,39 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (max-width: 576px) {
-    .container {
-      max-width: none;
-    }
-    
-    
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-    .port-wrapper{
-        width: 730px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .container {
-      width: 960px;
+
+@media (max-width: 1536px){
+    .container{
+        width: 1026px;
     }
 
-    .header{
-        min-width: 960px;
+    p.header-number{
+        font-size: 30px;
+    }
+
+    p.header-number-text{
+        font-size: 23px;
+    }
+
+
+    .calculate-wrapper{
+        flex-direction: column;
+    }
+
+    .calculate-form-wrapper{
+        margin: 0 auto;
     }
     
-  }
-  
-  @media (max-width: 1200px) {
-    .container {
-      max-width: 1140px;
+    .calculate-content{
+        margin-bottom: 40px;
+        display: flex;
     }
-   
-  }
+
+    img.calculate-content-img{
+        max-width: 505px;
+        max-height: 232px;
+    }
+
+
+    
+
+
+}
+
+
+
+
+@media (max-width: 992px){
+    .header{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px){
+}
+
+@media (min-width: 480px){
+}
+
 
 
 
@@ -168,8 +188,8 @@ body{
     display: flex;
 }
 
-.calculate-content{
-
+.calculate-content img{
+    
 }
 
 .calculate-content h1{
@@ -182,13 +202,13 @@ body{
 }
 
 .calculate-content p{
-    padding-right: 24px;
     max-width: 756px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #111827;
     padding-bottom: 16px;
+    
 }
 
 .calculate-form-text{

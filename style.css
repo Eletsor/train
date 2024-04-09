@@ -23,6 +23,16 @@
     }
 }
 
+@media (max-width: 1026px){
+    .container{
+        width: 768px;
+    }
+
+    .advan-catalog{
+        margin: 0 auto;
+    }
+}
+
 
 
 

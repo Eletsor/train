@@ -60,6 +60,13 @@
     .garant-cart{
         margin: 0 auto;
     }
+    .calculate-h1{
+        min-width: 738px;
+    }
+
+    .calculate-p{
+        min-width: 738px;
+    }
 
 }
 

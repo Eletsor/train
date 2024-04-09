@@ -6,33 +6,16 @@
         width: 1026px;
     }
 
-   
-
-    
-
-
-}
-
-
-
-
-@media (max-width: 1024px){
-    .container{
-        width: 768px;
-    }
-
-    .header{
-        min-width: 1024px;
-    }
-
-    
-}
-
-@media (min-width: 768px){
-    .container{
-        min-width: 640px;
+    .calculate-wrapper{
+        flex-direction: column;
     }
 }
+
+
+
+
+
+
 
 
 

@@ -67,6 +67,9 @@
     .calculate-p{
         min-width: 738px;
     }
+    #mediapadding{
+        padding-left: 0;
+    }
 
 }
 

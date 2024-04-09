@@ -6,34 +6,7 @@
         width: 1026px;
     }
 
-    p.header-number{
-        font-size: 30px;
-    }
-
-    p.header-number-text{
-        font-size: 23px;
-    }
-
-
-    .calculate-wrapper{
-        flex-direction: column;
-    }
-
-    
-
-    .calculate-form-wrapper{
-        margin: 0 auto;
-    }
-    
-    .calculate-content{
-        margin-bottom: 40px;
-    }
-
-    img.calculate-content-img{
-        min-width: 100%;
-        
-    }
-
+   
 
     
 
@@ -52,28 +25,13 @@
         min-width: 1024px;
     }
 
-    .catalog-wrapper{
-        flex-direction: column;
-    }
-
-    .advan-catalog{
-        margin: 0 auto;
-    }
-
-}
-
-@media (max-width: 768px){
-    .container{
-        width: 640px;
-    }
-
-    .header{
-        min-width: 1000px;
-    }
-}
-
-@media (min-width: 480px){
     
+}
+
+@media (min-width: 768px){
+    .container{
+        min-width: 640px;
+    }
 }
 
 

@@ -58,6 +58,10 @@
         width: 768px;
     }
 
+    p.header-info{
+        display: none;
+    }
+
     .advan-catalog{
         margin: 0 auto;
     }
@@ -110,6 +114,7 @@
     }
     p.header-number{
         font-size: 15px;
+        margin: 0 auto;
     }
 
     p.header-number-text{

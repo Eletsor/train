@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+@media (min-width: 1536px){
+    .calculate-content h1{
+        width: 756px;
+    }
+
+    .calculate-content p{
+        width: 756px;
+    }
+}
+
 @media (max-width: 1536px){
     .container{
         width: 1026px;
@@ -72,6 +82,42 @@
     }
 
 }
+
+
+@media(max-width:768px){
+    .container{
+        width: 640px;
+    }
+
+    .calculate-content h1{
+        min-width: 600px;
+    }
+    .calculate-p{
+        min-width: 610px;
+    }
+
+    .calculate-content p{
+        
+        
+    }
+
+    p.header-info{
+        display: none;
+    }
+
+    #info-header{
+        display: none;
+    }
+    p.header-number{
+        font-size: 15px;
+    }
+
+    p.header-number-text{
+        display: none;
+    }
+}
+
+
 
 
 
@@ -219,7 +265,7 @@ body{
 }
 
 .calculate-content h1{
-    width: 756px;
+    
     font-weight: 900;
     font-size: 36px;
     line-height: 40px;

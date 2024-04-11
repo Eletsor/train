@@ -143,6 +143,10 @@
         display: none;
     }
 
+    .calculate{
+        margin-top: 48px;
+    }
+
 /*burger-menu*/
 
     .burger{
@@ -167,6 +171,7 @@
         font-weight: 900;
         font-size: 20px;
     }
+
 
     
 }

@@ -235,6 +235,35 @@
     transform: rotate(-45deg);
     transition: bottom .3s, transform .3s .15s;
   }
+
+  .menu-list {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: grid;
+    gap: 12px;
+    padding: 42px 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    list-style-type: none;
+    transform: translateX(-100%);
+    transition: .3s;
+    width: 200px;
+  }
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-item:hover {
+    background: rgba(255,255,255,.2)
+  }
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
       
     
 }

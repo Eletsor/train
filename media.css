@@ -1,0 +1,169 @@
+@media (min-width: 1536px){
+    .calculate-content h1{
+        width: 756px;
+    }
+
+    .calculate-content p{
+        width: 756px;
+    }
+    .burger{
+        display: none;
+    }
+}
+
+@media (max-width: 1536px){
+    .container{
+        width: 1026px;
+    }
+
+    .calculate-h1{
+        min-width: 996px;
+    }
+
+    .calculate-p{
+        min-width: 996px;
+    }
+
+    .calculate-wrapper{
+        flex-direction: column;
+    }
+
+    .calculate-form-wrapper{
+        margin: 0 auto;
+    }
+
+    .calculate-form{
+        margin-top: 40px;
+    }
+
+    .calculate-content-img{
+        width: 100%;
+    }
+    .garant-catalog{
+        flex-wrap: wrap;
+    }
+
+    .garant-cart img{
+        padding-top: 24px;
+    }
+
+    #mediapadding{
+        padding-left: 24px;
+    }
+    .burger{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1026px){
+    .container{
+        width: 768px;
+    }
+
+    p.header-info{
+        display: none;
+    }
+
+    .advan-catalog{
+        margin: 0 auto;
+    }
+
+    .garant-catalog{
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .garant-cart{
+        margin: 0 auto;
+    }
+    .calculate-h1{
+        min-width: 738px;
+    }
+
+    .calculate-p{
+        min-width: 738px;
+    }
+    #mediapadding{
+        padding-left: 0;
+    }
+    .burger{
+        display: none;
+    }
+
+}
+
+
+@media(max-width:768px){
+    .container{
+        width: 640px;
+    }
+
+    .calculate-content h1{
+        min-width: 600px;
+        font-size: 30px;
+    }
+    .calculate-p{
+        min-width: 610px;
+    }
+
+
+    p.header-info{
+        display: none;
+    }
+
+    #info-header{
+        display: none;
+    }
+    p.header-number{
+        font-size: 19px;
+        padding-top: 19px;
+    }
+
+    p.header-number-text{
+        display: none;
+    }
+
+    h1#last{
+        
+    }
+
+    p#last{
+        
+    }
+    .calculate-form-text{
+       
+    }
+    
+    .header-wrapper{
+        background-color: white;
+    }
+
+    .header{
+        display: none;
+    }
+
+/*burger-menu*/
+
+    .burger{
+        display: block;
+        background-color: white;
+    }
+    
+    .logo-burger h1{
+        font-size: 18px;
+    }
+
+    .burger-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .burger-number{
+        font-weight: 900;
+        font-size: 20px;
+    }
+}

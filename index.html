@@ -82,22 +82,22 @@
                                 <p id="last">Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
                             </div>
                             <form action="#" method="post">
-                                <input  type="text" id="name" name="postname" placeholder="Имя">
+                                <input  type="text" id="name" name="postname" placeholder="Имя"required>
                                 <div class="input-wrapper">
                                 <input type="email" id="email" name="emailname" placeholder="Email">
-                                <input type="tel" name="telephonename" id="telephone" placeholder="Телефон">
+                                <input type="tel" name="telephonename" id="telephone" placeholder="Телефон"required maxlength="12" value="+">
                                 </div>
                                 <div class="input-wrapper">
-                                    <input type="text" id="email" name="emailname" placeholder="Общая площадь, м²">
-                                    <input type="text" name="telephonename" id="telephone" placeholder="Вес, кг">
+                                    <input type="text" id="email" name="emailname" placeholder="Общая площадь, м²"required>
+                                    <input type="text" name="kg" id="telephone" placeholder="Вес, кг"required >
                                     </div>
                                     <div class="input-wrapper">
-                                        <input type="text" id="email" name="emailname" placeholder="Страна покупки">
-                                        <input type="text" name="telephonename" id="telephone" placeholder="Город покупки">
+                                        <input type="text" id="email" name="country" placeholder="Страна покупки"required>
+                                        <input type="text" name="city" id="telephone" placeholder="Город покупки">
                                         </div>
                                         <div class="input-wrapper">
-                                            <input type="text" id="email" name="emailname" placeholder="Область доставки">
-                                            <input type="text" name="telephonename" id="telephone" placeholder="Город доставки">
+                                            <input type="text" id="email" name="obl" placeholder="Область доставки">
+                                            <input type="text" name="citybuy" id="telephone" placeholder="Город доставки"required>
                                             </div>
                                             <input id="sumbit" type="submit" value="Заказать расчет" />
                             </form>

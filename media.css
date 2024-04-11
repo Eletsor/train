@@ -54,6 +54,7 @@
         display: none;
     }
 
+
 }
 
 @media (max-width: 1026px){
@@ -89,6 +90,9 @@
     }
     .burger{
         display: none;
+    }
+    .garant-cart:last-child{
+        padding-left: 0;
     }
 
 }
@@ -145,6 +149,10 @@
 
     .calculate{
         margin-top: 48px;
+    }
+
+    .garant-cart:last-child{
+        padding-left: 0;
     }
 
 /*burger-menu*/

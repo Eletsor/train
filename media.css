@@ -96,7 +96,7 @@
 
 @media(max-width:768px){
     .container{
-        width: 640px;
+        max-width:640px
     }
 
     .calculate-content h1{
@@ -148,6 +148,7 @@
     .burger{
         display: block;
         background-color: white;
+        min-width: 640px;
     }
     
     .logo-burger h1{
@@ -166,4 +167,6 @@
         font-weight: 900;
         font-size: 20px;
     }
+
+    
 }

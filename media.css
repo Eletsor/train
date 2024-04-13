@@ -149,6 +149,9 @@
         line-height: 24px;
         color: #111827;
     }
+    .reviews-arrow{
+        margin-top: 80px;
+    }
 
 }
 
@@ -340,7 +343,7 @@
 
 .reviews-catalog-wrapper{
     width: 442px;
-    height: 280px;
+    height: 250px;
     background-color: #F9FAFB;
     border-radius: 16px;
     padding: 32px 16px 0 16px;

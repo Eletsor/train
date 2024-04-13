@@ -243,6 +243,12 @@ body{
     border: 2px solid #111827;
 }
 
+textarea:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+  }
+
 
 ::placeholder{
     color: #9CA3AF;

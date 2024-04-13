@@ -468,3 +468,100 @@ textarea:focus {
 .reviews-arrow{
     cursor: pointer;
 }
+
+
+/*footer*/
+
+
+footer{
+    margin-top: 72px;
+    width: 100%;
+    background-color: #111827;
+    min-height: 234px;
+}
+
+.footer-wrapper{
+   padding: 40px 0 40px 0;
+}
+
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+
+.footer-logo{
+
+}
+
+.footer-logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-wrapper h1{
+    padding-left: 4px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #F9FAFB;
+}
+
+.footer-logo-text{
+    padding-top: 8px;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F9FAFB;
+}
+
+.footer-menu-list li a{
+   align-items: center;
+   color: #F9FAFB;
+   font-weight: 400;
+   
+}
+
+
+
+.footer-info{
+    padding-top: 11px;
+}
+
+.footer-number{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #F9FAFB;
+}
+
+.footer-number-text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F9FAFB;
+    text-align: center;
+}
+
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+#down1{
+    max-width: 1146px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #4B5563;
+    text-align: left;
+}
+
+#down2{
+    width: 242px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #6B7280;
+    text-align: right;
+}

@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *,*:before,*:after{
     box-sizing: border-box;
 }
@@ -389,6 +369,7 @@ body{
 
 .reviews{
     margin-top: 72px;
+    margin-bottom: 72px;
 }
 
 .reviews-wrapper{
@@ -404,5 +385,42 @@ body{
 }
 
 .reviews-catalog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
 
+.reviews-catalog-wrapper{
+    width: 626px;
+    height: 318px;
+    background-color: #F9FAFB;
+    border-radius: 16px;
+    padding: 32px 43px 0 43px;
+}
+
+.reviews-catalog-down{
+   display: flex;
+   justify-content: space-between;
+}
+
+.reviews-text{
+    max-width: 540px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111827;
+}
+
+.reviews-name{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6B7280;
+    padding-top:19px ;
+
+}
+
+.reviews-arrow{
+    cursor: pointer;
 }

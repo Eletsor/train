@@ -9,6 +9,8 @@
     .burger{
         display: none;
     }
+
+    
 }
 
 @media (max-width: 1536px){
@@ -356,6 +358,25 @@
     font-size: 18px;
     line-height: 24px;
     color: #111827;
+}
+
+#last1{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+#last{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.calculate-form-text{
+    margin: 0 auto;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+    padding: 24px 0px 28px 0px;
 }
 
 }

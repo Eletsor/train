@@ -20,7 +20,7 @@
                     <p class="burger-number">+7 (800) 123 45 67</p>
                     <div class="burger-menu"></div>
                     <ul class="menu">
-                        <li><a href="#">Калькулятор</a></li>
+                        <li><a href="#" >Калькулятор</a></li>
                         <li><a href="#">О нас</a></li>
                         <li><a href="#">Гарантии</a></li>
                         <li><a href="#">Отзывы</a></li>
@@ -67,7 +67,7 @@
         </div>
     </header>
     <main>
-        <div class="calculate">
+        <div class="calculate" id="calculate-link">
             <div class="container">
                 <div class="calculate-wrapper">
                     <div class="calculate-content">
@@ -87,7 +87,7 @@
                                 <input  type="text" id="name" name="postname" placeholder="Имя"required>
                                 <div class="input-wrapper">
                                 <input type="email" id="email" name="emailname" placeholder="Email">
-                                <input type="tel" name="telephonename" id="telephone" placeholder="Телефон"required maxlength="12" value="+">
+                                <input type="tel" name="telephonename" id="telephone" placeholder="Телефон"required maxlength="12" minlength="11" value="+">
                                 </div>
                                 <div class="input-wrapper">
                                     <input type="text" id="email" name="emailname" placeholder="Общая площадь, м²"required>
@@ -242,7 +242,7 @@
                                 <input  type="text" id="name" name="postname" placeholder="Имя"required>
                                 <div class="input-wrapper">
                                 <input type="email" id="email" name="emailname" placeholder="Email">
-                                <input type="text" name="telephonename" id="telephone" placeholder="Тема вопроса">
+                                <input type="text" name="question" id="telephone" placeholder="Тема вопроса">
                                 </div>
                                 <div class="input-wrapper">
                                      <textarea name="emailname" id="sms" cols="30" rows="10" placeholder="Сообщение..."required></textarea>

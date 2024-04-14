@@ -17,6 +17,10 @@ body{
     padding: 0 15px;
 }
 
+input:user-valid{
+    border-color: #8B5CF6;
+}
+
 .header{
     background-color: white;
 }
@@ -125,9 +129,7 @@ body{
     display: flex;
 }
 
-.calculate-content img{
-    
-}
+
 
 .calculate-content h1{
     
@@ -213,10 +215,6 @@ body{
     float: right;
 }
 
-.questions-calculate{
-        
-}
-
 .calculate-wrapper-questions{
     margin: 0 auto;
 }
@@ -278,9 +276,6 @@ textarea:focus {
     margin-top: 72px;
 }
 
-.advan-wrapper{
-
-}
 
 .advan-tittle{
     text-align: center;
@@ -300,10 +295,6 @@ textarea:focus {
     padding: 24px 0 24px 24px ;
     display: flex;
     max-width: 496px;
-}
-
-.advan-catalog img{
-
 }
 
 .catalog-info{
@@ -331,10 +322,6 @@ textarea:focus {
 
 .garant{
     margin-top: 72px;
-}
-
-.garant-wrapper{
-    
 }
 
 .garant-tittle{
@@ -411,10 +398,6 @@ textarea:focus {
     margin-bottom: 72px;
 }
 
-.reviews-wrapper{
-
-}
-
 .reviews-tittle{
     text-align: center;
     font-weight: 900;
@@ -478,6 +461,7 @@ footer{
     width: 100%;
     background-color: #111827;
     min-height: 234px;
+    
 }
 
 .footer-wrapper{
@@ -490,10 +474,6 @@ footer{
     align-items: center;
 }   
 
-
-.footer-logo{
-
-}
 
 .footer-logo-wrapper{
     display: flex;

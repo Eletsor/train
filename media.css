@@ -18,6 +18,8 @@
         width: 1026px;
     }
 
+/*calculate form*/
+
     .calculate-h1{
         min-width: 996px;
     }
@@ -41,6 +43,9 @@
     .calculate-content-img{
         width: 100%;
     }
+
+/*garant-catalog*/ 
+
     .garant-catalog{
         flex-wrap: wrap;
     }
@@ -55,6 +60,8 @@
     .burger{
         display: none;
     }
+
+/*reviews*/
 
     .reviews-catalog-wrapper{
         width: 396px;
@@ -87,6 +94,8 @@
         margin-top: 0px;
         justify-content: space-between;
     }
+
+/*footer*/
 
     .footer-logo-wrapper h1{
         font-size: 24px;
